@@ -1,0 +1,3 @@
+[submodule "termsole"]
+	path = termsole
+	url = ./termsole
