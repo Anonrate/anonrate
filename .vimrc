@@ -1,7 +1,9 @@
+" set nocampatible
 se nocp
+" fieltype off
 filet off
 
-se rtp+=~/.vim/Vundle.vim
+se rtp+=~/.vim/bundle/Vundle.vim
 cal vundle#begin('~/.vim/bundle')
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'delimitMate.vim'
@@ -14,17 +16,26 @@ Plugin 'TagHighlight'
 Plugin 'qpkorr/vim-bufkill'
 Plugin 'vim-airline/vim-airline'
 cal vundle#end()
+" syntax on
+syn on
 
-syn on	" syntax on
+" filetype plugin indent on
 filet plugin indent on
 
+" colorscheme anoncol
 colo anoncol
 
+au bufNewFile *.c,*.h so ~/.vim/templates/c.template
+au bufNewFile *.c,*.h exe "1," . 25 . "g/\|FILENAME\|.*/s~~" . expand("%:t")
+au bufNewFile *.c,*.h exe "1," . 25 . "g/\|DATE\|/s~~" . strftime("%m/%d/%Y")
+au bufNewFile *.c,*.h exe "1," . 25 . "g/\|TIME\|/s//" . strftime("%H:%M:%S")
+au bufNewFile *.c,*.h exe "1," . 25 . "g/\|AUTHOR\|/s//Anonrate"
+au bufNewFile *.c,*.h exe "1," . 25 . "g/\|YEAR\|/s//" . strftime("%Y")
 " Sets 'backsapce' to '2' which allows backspacing over autoIndents, line
 " 	breaks and the start of insert.
 se bs=2			" Same as 'se bs=indent,eol,start'.
 "se cuc			" set cursorColumn
-"se cul			" set cursorLine
+se cul			" set cursorLine
 se enc=utf8		" set encoding=utf8
 se fenc=utf8	" set fileEncoding=utf8
 se history=200	" set history=200
@@ -33,7 +44,7 @@ se nu			" set number (Line numbers)
 se ru			" set ruler (Cursor position)
 
 " NOTE:	Turning off 'showcmd' will increase terminal performance.
-se sc		" set showcmd (Show (partial) command in last line of screen.)
+se sc	" set showcmd (Show (partial) command in last line of screen.)
 
 se si	" set smartIndent
 se sm	" set showMatch (Show matching brackets.)
@@ -57,6 +68,9 @@ se ttm=100	" set ttimeoutlen=100
 se tw=79	" set textWidth=79
 se wmnu		" se wildmenu
 
+" columnColor
+" Colors column '80' to represent the 'textWidth' setting.  Also colors column
+" 	column '120'.
 let &cc="80," . join(range(120, 478), ",")
 
 " Disable loading all extensions.
@@ -68,7 +82,7 @@ let g:airline_extensions	= [
 							\ 'wordcount',
 							\ 'branch',
 							\ ]
-
+"{{{1
 " Show buffer numbers.
 let g:airline#extensions#tabline#buffer_nr_show				= 1
 
@@ -87,3 +101,23 @@ let g:airline#extensions#tabline#tabs_label		= 'TABS'
 
 " Use powerline fonts.
 let g:airline_powerline_fonts = 1
+"}}}1
+
+fu! SyntaxItem()
+	return
+		\ 'hi<'
+		\	. synIDattr(
+		\		synID(line('.'), col('.'), 1),
+		\		'name') .
+		\ '> trans<'
+		\	. synIDattr(
+		\		synID(line('.'), col('.'), 0),
+		\		'name') .
+		\ '> lo<'
+		\	. synIDattr(
+		\		synIDtrans(synID(line('.'), col('.'), 1)),
+		\		'name') .
+		\ '>'
+endf
+
+"let g:airline_section_y = '%{SyntaxItem()}'
