@@ -3,7 +3,7 @@ se nocp
 " fieltype off
 filet off
 
-se rtp+=~/.vim/Vundle.vim
+se rtp+=~/.vim/bundle/Vundle.vim
 cal vundle#begin('~/.vim/bundle')
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'delimitMate.vim'
