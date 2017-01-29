@@ -73,6 +73,9 @@ se wmnu		" se wildmenu
 " 	column '120'.
 let &cc="80," . join(range(120, 478), ",")
 
+let g:load_doxygen_syntax		= 1
+"let g:doxygen_enhanced_color	= 1
+
 " Disable loading all extensions.
 let g:ariline#extensions#disable_rtp_load	= 1
 

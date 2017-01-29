@@ -1,0 +1,4 @@
+syn keyword CTagsConstant test osid rev strver ver
+syn keyword CTagsFunction main
+syn keyword CTagsDefinedName VER __ASDFTEST__ REV STRVER DEV DEBUG OSID OSNFO_H
+
