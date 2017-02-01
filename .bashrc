@@ -113,3 +113,6 @@ if ! shopt -oq posix; then
 fi
 
 export PS1="\[\e[31m\]\u\[\e[m\]\[\e[34m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]\[\e[35m\]>\[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[31m\]\\$\[\e[m\] "
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

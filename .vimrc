@@ -15,6 +15,7 @@ Plugin 'TagHighlight'
 "Plugin 'mh21/errormarker.vim'
 Plugin 'qpkorr/vim-bufkill'
 Plugin 'vim-airline/vim-airline'
+Plugin 'lilydjwg/colorizer'
 cal vundle#end()
 " syntax on
 syn on
@@ -35,7 +36,7 @@ au bufNewFile *.c,*.h exe "1," . 25 . "g/\|YEAR\|/s//" . strftime("%Y")
 " 	breaks and the start of insert.
 se bs=2			" Same as 'se bs=indent,eol,start'.
 "se cuc			" set cursorColumn
-se cul			" set cursorLine
+"se cul			" set cursorLine
 se enc=utf8		" set encoding=utf8
 se fenc=utf8	" set fileEncoding=utf8
 se history=200	" set history=200

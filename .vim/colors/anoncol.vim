@@ -25,6 +25,7 @@ hi link cCommentL							cCommentStart
 hi link cmakeComment						comment
 hi link configComment						comment
 hi link csComment							comment
+hi link cssComment							comment
 hi link doxygenBody							comment
 hi link doxygenBodyL						comment
 hi link javaLineComment						comment
@@ -52,6 +53,20 @@ hi cString							guifg=#904090	guibg=NONE		cterm=none
 hi link csConstant							cTagsDefinedName
 hi link csNumber							cNumber
 hi link csString							cString
+hi link cssAnimationAttr					type
+hi link cssBorderAttr						type
+hi link cssColor							cStorageClass
+hi link cssCommonAttr						cType
+hi link cssFunction							cTagsFunction
+hi link cssGradientAttr						type
+hi link cssKeyFrameSelector					statement
+hi link cssStringQQ							cString
+hi link cssTransitionAttr					type
+hi link cssUIAttr							cType
+hi link cssUnitDecorators					cFormat
+hi link cssValueLength						cNumber
+hi link cssValueNumber						cNumber
+hi link cssValueTime						cCharacter
 hi link dosBatchString						cString
 hi link dosiniNumber						cNumber
 hi link doxygenBOther						cCommentStart
@@ -100,6 +115,12 @@ hi identifier					guifg=#408000	guibg=NONE		cterm=none
 hi link cmakeArguments						cTagsMember
 hi link configFunction						cTagsFunction
 hi cTagsFunction				guifg=#006a40	guibg=NONE		cterm=none
+hi link cssBraces							symParens
+hi link cssClassName						cTagsClass
+hi link cssClassNameDot						cFormat
+hi link cssFunctionComma					symPunctEqual
+hi link cssFunctionName						cTagsFunction
+hi link cssIdentifier						identifier
 hi link dosBatchImplicit					cTagsFunction
 hi link dosBatchVariable					cDefine
 hi link doxygenHtmlCh						identifier
@@ -161,6 +182,8 @@ hi cPreCondit					guifg=#8000c4	guibg=NONE		cterm=none
 hi link cPreConditMatch						cPreCondit
 hi link cOctalZero							cFormat
 hi link csPreCondit							cPreCondit
+hi link cssIncludeKeyword					preProc
+hi link cssPseudoClassId					cTagsDefinedName
 hi link javaExternal						preProc
 hi markdownHeadingRule			guifg=#008000	guibg=NONE		cterm=none
 hi link protoSyntax							cDefine
@@ -185,6 +208,8 @@ hi cFormat						guifg=#800000	guibg=NONE		cterm=underline
 hi link cmakeEscaped						special
 hi link configDelimiter						special
 hi link cSpecial							special
+hi link cssAttrComma						symPunctEqual
+hi link cssSelectorOp						cOperator
 hi link dosBatchSwitch						special
 hi link dosiniHeader						title
 hi link doxygenBriefSpecial					special
@@ -251,6 +276,7 @@ hi link csRepeat							cRepeat
 " NOTE:	It was a 'using', so to me it's a 'preProc'..
 hi link csUnspecifiedStatement				preProc
 hi link cStatement							statement
+hi link cssTagName							cLabel
 hi cTagsClass					guifg=#ffff00	guibg=NONE		cterm=none
 hi cTagsDefinedName				guifg=#c400c4	guibg=NONE		cterm=none
 hi cTagsEnumerationValue		guifg=#800040	guibg=NONE		cterm=none
@@ -358,6 +384,16 @@ hi link cTagsType							cType
 hi cStorageClass				guifg=#ffd000	guibg=NONE		cterm=none
 hi cStructure					guifg=#ff8000	guibg=NONE		cterm=none
 hi cType						guifg=#ff6500	guibg=NONE		cterm=none
+hi link cssBackgroundProp					cLabel
+hi link cssBorderProp						cLabel
+hi link cssBoxProp							cLabel
+hi link cssColorProp						cLabel
+hi link cssDimensionProp					cLabel
+hi link cssFlexibleBoxProp					cLabel
+hi link cssNoise							symOperator
+hi link cssPageProp							cLabel
+hi link cssTextProp							cLabel
+hi link cssUIProp							cLabel
 hi link dosinitLabel						cLabel
 hi link doxygenParamDirection				identifier
 " TODO:	I want this to match all the other classes, but I can't remember what
@@ -398,6 +434,9 @@ hi link markdwonLineText					underlined
 " 		group has 'System' in it.
 hi link cmakeSystemVariable					cTagsDefinedName
 
+hi link cssAttrRegion						cTagsDefinedName
+hi link cssPseudoClass						cTagsDefinedName
+hi link cssPseudoClassFn					cTagsFunction
 hi doxygenBoldWord				guifg=#606060	guibg=NONE		cterm=bold
 hi link doxygenCodeRegion					doxygenCodeWord
 hi doxygenCodeWord				guifg=#606060	guibg=NONE		cterm=none
