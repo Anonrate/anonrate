@@ -8,13 +8,36 @@ endif
 
 let colors_colors = "anoncol"
 
-hi cursorLine						guifg=NONE		guibg=#141414	cterm=none
-hi cursorColumn						guifg=NONE		guibg=#141414	cterm=underline
+hi cursorLine						guifg=NONE		guibg=#202020	cterm=none
+hi cursorColumn						guifg=NONE		guibg=#202020	cterm=none
 hi normal							guifg=#eeeeee	guibg=#000000	cterm=none
 hi colorColumn						guifg=NONE		guibg=#202020	cterm=none
 hi lineNR							guifg=#ff0000	guibg=#202020	cterm=none
 hi vertSplit						guifg=#000000	guibg=#202020	cterm=none
+hi folded							guifg=#505050	guibg=#202020	cterm=none
+syn match symParens			/[(){}]/
+hi link symParens							cDefine
 
+syn match symBraces			/\[\|\]/
+hi link symBraces							type
+
+syn match symOperators		/[*|?:]/
+hi link symOperators						cOperator
+
+syn match symOutParam		/&/
+hi link symOutParam							cFormat
+
+syn match symAnd			/&&/
+hi link symAnd								cOperator
+
+syn match symPlusGreater	/[+>]/
+hi symPlusGreater					guifg=#00ff00	guibg=NONE		cterm=none
+
+syn match symSubtractLess	/[-<]/
+hi symSubtractLess					guifg=#ff0000	guibg=NONE		cterm=none
+
+syn match symPunctEqual		/[],;=]/
+hi symPunctEqual					guifg=#ffff00	guibg=NONE		cterm=none
 
 hi comment							guifg=#505050	guibg=NONE		cterm=none
 hi link automakeComment1					comment
@@ -210,6 +233,7 @@ hi link configDelimiter						special
 hi link cSpecial							special
 hi link cssAttrComma						symPunctEqual
 hi link cssSelectorOp						cOperator
+hi link cSysFunc							cTagsFunction
 hi link dosBatchSwitch						special
 hi link dosiniHeader						title
 hi link doxygenBriefSpecial					special
@@ -287,7 +311,7 @@ hi cTagsNamespace				guifg=#00ff00	guibg=NONE		cterm=none
 " 			namespace), but it also is relavant to the function/methods to that
 " 			of java which is why I set it to 'cTagsFunction.
 hi link cTagsField							cTagsFunction
-hi link cTagsGlobalVariable					statement
+hi link cTagsGlobalVariable					constant
 hi link cTagsImport							cTagsIncluded
 hi link cTagsInterface						cTagsMember
 hi link cTagsMethod							cTagsFunction
@@ -496,26 +520,4 @@ hi xmlEqual						guifg=#00ff00	guibg=NONE		cterm=none
 hi link yamlPlainScalr						normal
 hi link vimGroup							type
 
-syn match symParens			/[(){}/]/
-hi link symParens							cDefine
 
-syn match symBraces			/\[\|\]/
-hi link symBraces							type
-
-syn match symOperators		/[*|?:]/
-hi link symOperators						cOperator
-
-syn match symOutParam		/&/
-hi link symOutParam							cFormat
-
-syn match symAnd			/&&/
-hi link symAnd								cOperator
-
-syn match symPlusGreater	/[+>]/
-hi symPlusGreater					guifg=#00ff00	guibg=NONE		cterm=none
-
-syn match symSubtractLess	/[-<]/
-hi symSubtractLess					guifg=#ff0000	guibg=NONE		cterm=none
-
-syn match symPunctEqual		/[],;=]/
-hi symPunctEqual					guifg=#ffff00	guibg=NONE		cterm=none
