@@ -1,0 +1,531 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0	lgr/html/search/searchdata.js	/^{$/;"	kind:p	class:indexSectionLabels
+0	lgr/html/search/searchdata.js	/^{$/;"	kind:p	class:indexSectionNames
+0	lgr/html/search/searchdata.js	/^{$/;"	kind:p	class:indexSectionsWithContent
+0	osnfo/html/search/searchdata.js	/^{$/;"	kind:p	class:indexSectionLabels
+0	osnfo/html/search/searchdata.js	/^{$/;"	kind:p	class:indexSectionNames
+0	osnfo/html/search/searchdata.js	/^{$/;"	kind:p	class:indexSectionsWithContent
+1	lgr/html/search/searchdata.js	/^  0: "All",$/;"	kind:p	class:indexSectionLabels
+1	lgr/html/search/searchdata.js	/^  0: "all",$/;"	kind:p	class:indexSectionNames
+1	lgr/html/search/searchdata.js	/^  0: "defgilmnrsvw",$/;"	kind:p	class:indexSectionsWithContent
+1	osnfo/html/search/searchdata.js	/^  0: "All",$/;"	kind:p	class:indexSectionLabels
+1	osnfo/html/search/searchdata.js	/^  0: "all",$/;"	kind:p	class:indexSectionNames
+1	osnfo/html/search/searchdata.js	/^  0: "o",$/;"	kind:p	class:indexSectionsWithContent
+2	lgr/html/search/searchdata.js	/^  1: "Files",$/;"	kind:p	class:indexSectionLabels
+2	lgr/html/search/searchdata.js	/^  1: "files",$/;"	kind:p	class:indexSectionNames
+2	lgr/html/search/searchdata.js	/^  1: "lr",$/;"	kind:p	class:indexSectionsWithContent
+2	osnfo/html/search/searchdata.js	/^  1: "Files",$/;"	kind:p	class:indexSectionLabels
+2	osnfo/html/search/searchdata.js	/^  1: "files",$/;"	kind:p	class:indexSectionNames
+2	osnfo/html/search/searchdata.js	/^  1: "o",$/;"	kind:p	class:indexSectionsWithContent
+3	lgr/html/search/searchdata.js	/^  2: "Functions",$/;"	kind:p	class:indexSectionLabels
+3	lgr/html/search/searchdata.js	/^  2: "functions",$/;"	kind:p	class:indexSectionNames
+3	lgr/html/search/searchdata.js	/^  2: "gilms",$/;"	kind:p	class:indexSectionsWithContent
+4	lgr/html/search/searchdata.js	/^  3: "Enumerations",$/;"	kind:p	class:indexSectionLabels
+4	lgr/html/search/searchdata.js	/^  3: "enums",$/;"	kind:p	class:indexSectionNames
+4	lgr/html/search/searchdata.js	/^  3: "v",$/;"	kind:p	class:indexSectionsWithContent
+5	lgr/html/search/searchdata.js	/^  4: "Enumerator",$/;"	kind:p	class:indexSectionLabels
+5	lgr/html/search/searchdata.js	/^  4: "definw",$/;"	kind:p	class:indexSectionsWithContent
+5	lgr/html/search/searchdata.js	/^  4: "enumvalues",$/;"	kind:p	class:indexSectionNames
+6	lgr/html/search/searchdata.js	/^  5: "Macros",$/;"	kind:p	class:indexSectionLabels
+6	lgr/html/search/searchdata.js	/^  5: "defilnw",$/;"	kind:p	class:indexSectionsWithContent
+6	lgr/html/search/searchdata.js	/^  5: "defines",$/;"	kind:p	class:indexSectionNames
+API_LVL	osnfo/old/osnfo.h	62;"	kind:d
+Activate	lgr/html/search/search.js	/^  this.Activate = function(isActive)$/;"	kind:m	class:SearchBox
+Activate	osnfo/html/search/search.js	/^  this.Activate = function(isActive)$/;"	kind:m	class:SearchBox
+CSTDIOR_H	cstdior/inc/cstdior.h	29;"	kind:d
+CloseResultsWindow	lgr/html/search/search.js	/^  this.CloseResultsWindow = function()$/;"	kind:m	class:SearchBox
+CloseResultsWindow	osnfo/html/search/search.js	/^  this.CloseResultsWindow = function()$/;"	kind:m	class:SearchBox
+CloseSelectionWindow	lgr/html/search/search.js	/^  this.CloseSelectionWindow = function()$/;"	kind:m	class:SearchBox
+CloseSelectionWindow	osnfo/html/search/search.js	/^  this.CloseSelectionWindow = function()$/;"	kind:m	class:SearchBox
+DBGCSTDIOR_H	cstdior/inc/dbgcstdior.h	29;"	kind:d
+DBGF_FE	cstdior/inc/dbgcstdior.h	35;"	kind:d
+DBGF_FNE	cstdior/inc/dbgcstdior.h	41;"	kind:d
+DBGF_STRZ	stringx/inc/dbgstringx.h	35;"	kind:d
+DBGF_UNAME	osnfo/inc/dbgosnfolinux.h	34;"	kind:d
+DBGF_UNMX	osnfo/inc/dbgosnfolinux.h	43;"	kind:d
+DBGOSNFOLINUX_H	osnfo/inc/dbgosnfolinux.h	29;"	kind:d
+DBGR_H	dbgr/inc/dbgr.h	38;"	kind:d
+DBGSTRINGX_H	stringx/inc/dbgstringx.h	29;"	kind:d
+DEBUG	lgr/.bak/lgr.h	/^    DEBUG   = 0x5,  \/**< Display everything!  *\/$/;"	kind:e	enum:verblvls
+DEBUG	lgr/inc/lgr.h	/^    DEBUG   = 0x5,  \/**< Display everything!  *\/$/;"	kind:e	enum:verblvls
+DEBUG	strcalc/src/strcalc.c	28;"	kind:d	file:
+DEBUG	stringx/src/stringx.c	33;"	kind:d	file:
+DEBUG_OUT	dbgr/inc/dbgr.h	45;"	kind:d
+DEBUG_OUT	osnfo/old/osnfo.h	42;"	kind:d
+DEBUG_OUTF	dbgr/inc/dbgr.h	54;"	kind:d
+DEBUG_STR	lgr/.bak/lgr.h	40;"	kind:d
+DEBUG_STR	lgr/inc/lgr.h	48;"	kind:d
+DOMPopupSearchResults	lgr/html/search/search.js	/^  this.DOMPopupSearchResults = function()$/;"	kind:m	class:SearchBox
+DOMPopupSearchResults	osnfo/html/search/search.js	/^  this.DOMPopupSearchResults = function()$/;"	kind:m	class:SearchBox
+DOMPopupSearchResultsWindow	lgr/html/search/search.js	/^  this.DOMPopupSearchResultsWindow = function()$/;"	kind:m	class:SearchBox
+DOMPopupSearchResultsWindow	osnfo/html/search/search.js	/^  this.DOMPopupSearchResultsWindow = function()$/;"	kind:m	class:SearchBox
+DOMSearchBox	lgr/html/search/search.js	/^  this.DOMSearchBox = function()$/;"	kind:m	class:SearchBox
+DOMSearchBox	osnfo/html/search/search.js	/^  this.DOMSearchBox = function()$/;"	kind:m	class:SearchBox
+DOMSearchClose	lgr/html/search/search.js	/^  this.DOMSearchClose = function()$/;"	kind:m	class:SearchBox
+DOMSearchClose	osnfo/html/search/search.js	/^  this.DOMSearchClose = function()$/;"	kind:m	class:SearchBox
+DOMSearchField	lgr/html/search/search.js	/^  this.DOMSearchField = function()$/;"	kind:m	class:SearchBox
+DOMSearchField	osnfo/html/search/search.js	/^  this.DOMSearchField = function()$/;"	kind:m	class:SearchBox
+DOMSearchSelect	lgr/html/search/search.js	/^  this.DOMSearchSelect = function()$/;"	kind:m	class:SearchBox
+DOMSearchSelect	osnfo/html/search/search.js	/^  this.DOMSearchSelect = function()$/;"	kind:m	class:SearchBox
+DOMSearchSelectWindow	lgr/html/search/search.js	/^  this.DOMSearchSelectWindow = function()$/;"	kind:m	class:SearchBox
+DOMSearchSelectWindow	osnfo/html/search/search.js	/^  this.DOMSearchSelectWindow = function()$/;"	kind:m	class:SearchBox
+ERROR	lgr/.bak/lgr.h	/^    ERROR   = 0x2,  \/**< Error messages.      *\/$/;"	kind:e	enum:verblvls
+ERROR	lgr/inc/lgr.h	/^    ERROR   = 0x2,  \/**< Error messages.      *\/$/;"	kind:e	enum:verblvls
+ERROR_STR	lgr/.bak/lgr.h	37;"	kind:d
+ERROR_STR	lgr/inc/lgr.h	45;"	kind:d
+FATAL	lgr/.bak/lgr.h	/^    FATAL   = 0x1,  \/**< Fatal messages.      *\/$/;"	kind:e	enum:verblvls
+FATAL	lgr/inc/lgr.h	/^    FATAL   = 0x1,  \/**< Fatal messages.      *\/$/;"	kind:e	enum:verblvls
+FATAL_STR	lgr/.bak/lgr.h	36;"	kind:d
+FATAL_STR	lgr/inc/lgr.h	44;"	kind:d
+FindChildElement	lgr/html/search/search.js	/^    this.FindChildElement = function(id)$/;"	kind:m	class:SearchResults
+FindChildElement	osnfo/html/search/search.js	/^    this.FindChildElement = function(id)$/;"	kind:m	class:SearchResults
+INFO	lgr/.bak/lgr.h	/^    INFO    = 0x4,  \/**< Infomative messages. *\/$/;"	kind:e	enum:verblvls
+INFO	lgr/inc/lgr.h	/^    INFO    = 0x4,  \/**< Infomative messages. *\/$/;"	kind:e	enum:verblvls
+INFO_STR	lgr/.bak/lgr.h	39;"	kind:d
+INFO_STR	lgr/inc/lgr.h	47;"	kind:d
+INTERN_DEBUG	lgr/.bak/lgr.h	/^    INTERN_DEBUG    = 0x7   \/**< @brief internal debug        *\/$/;"	kind:e	enum:verblvls
+INTERN_DEBUG	lgr/inc/lgr.h	/^    INTERN_DEBUG    = 0x8   \/**< @brief internal debug        *\/$/;"	kind:e	enum:verblvls
+INTERN_DEBUG_STR	lgr/.bak/lgr.h	42;"	kind:d
+INTERN_DEBUG_STR	lgr/inc/lgr.h	51;"	kind:d
+INTERN_INFO	lgr/.bak/lgr.h	/^    INTERN_INFO     = 0x6,  \/**< @brief internal informatoin  *\/$/;"	kind:e	enum:verblvls
+INTERN_INFO	lgr/inc/lgr.h	/^    INTERN_INFO     = 0x7,  \/**< @brief internal informatoin  *\/$/;"	kind:e	enum:verblvls
+INTERN_INFO_STR	lgr/.bak/lgr.h	41;"	kind:d
+INTERN_INFO_STR	lgr/inc/lgr.h	50;"	kind:d
+INTERN_WARNING	lgr/inc/lgr.h	/^    INTERN_WARNING  = 0x6,  \/**< @brief internal warning      *\/$/;"	kind:e	enum:verblvls
+INTERN_WARNING_STR	lgr/inc/lgr.h	49;"	kind:d
+LGR_H	lgr/.bak/lgr.h	29;"	kind:d
+LGR_H	lgr/inc/lgr.h	29;"	kind:d
+LINUX	osnfo/inc/osids.h	31;"	kind:d
+NAVTREE	lgr/html/navtreedata.js	/^var NAVTREE =$/;"	kind:v
+NAVTREE	osnfo/html/navtreedata.js	/^var NAVTREE =$/;"	kind:v
+NAVTREEINDEX	lgr/html/navtreedata.js	/^var NAVTREEINDEX =$/;"	kind:v
+NAVTREEINDEX	osnfo/html/navtreedata.js	/^var NAVTREEINDEX =$/;"	kind:v
+NVALID_VERB_LVL	lgr/.bak/lgr.h	/^    NVALID_VERB_LVL = 0x0,  \/**< @brief invalid verbose level *\/$/;"	kind:e	enum:verblvls
+NVALID_VERB_LVL	lgr/inc/lgr.h	/^    NVALID_VERB_LVL = 0x0,  \/**< @brief invalid verbose level *\/$/;"	kind:e	enum:verblvls
+NVALID_VERB_LVL_STR	lgr/.bak/lgr.h	34;"	kind:d
+NVALID_VERB_LVL_STR	lgr/inc/lgr.h	34;"	kind:d
+Nav	lgr/html/search/search.js	/^    this.Nav = function(evt,itemIndex)$/;"	kind:m	class:SearchResults
+Nav	osnfo/html/search/search.js	/^    this.Nav = function(evt,itemIndex)$/;"	kind:m	class:SearchResults
+NavChild	lgr/html/search/search.js	/^    this.NavChild = function(evt,itemIndex,childIndex)$/;"	kind:m	class:SearchResults
+NavChild	osnfo/html/search/search.js	/^    this.NavChild = function(evt,itemIndex,childIndex)$/;"	kind:m	class:SearchResults
+NavNext	lgr/html/search/search.js	/^    this.NavNext = function(index)$/;"	kind:m	class:SearchResults
+NavNext	osnfo/html/search/search.js	/^    this.NavNext = function(index)$/;"	kind:m	class:SearchResults
+NavPrev	lgr/html/search/search.js	/^    this.NavPrev = function(index)$/;"	kind:m	class:SearchResults
+NavPrev	osnfo/html/search/search.js	/^    this.NavPrev = function(index)$/;"	kind:m	class:SearchResults
+OSID	osnfo/old/osnfo.h	101;"	kind:d
+OSID	osnfo/old/osnfo.h	113;"	kind:d
+OSID	osnfo/old/osnfo.h	125;"	kind:d
+OSID	osnfo/old/osnfo.h	137;"	kind:d
+OSID	osnfo/old/osnfo.h	149;"	kind:d
+OSID	osnfo/old/osnfo.h	161;"	kind:d
+OSID	osnfo/old/osnfo.h	175;"	kind:d
+OSID	osnfo/old/osnfo.h	187;"	kind:d
+OSID	osnfo/old/osnfo.h	200;"	kind:d
+OSID	osnfo/old/osnfo.h	212;"	kind:d
+OSID	osnfo/old/osnfo.h	224;"	kind:d
+OSID	osnfo/old/osnfo.h	237;"	kind:d
+OSID	osnfo/old/osnfo.h	250;"	kind:d
+OSID	osnfo/old/osnfo.h	262;"	kind:d
+OSID	osnfo/old/osnfo.h	274;"	kind:d
+OSID	osnfo/old/osnfo.h	288;"	kind:d
+OSID	osnfo/old/osnfo.h	300;"	kind:d
+OSID	osnfo/old/osnfo.h	312;"	kind:d
+OSID	osnfo/old/osnfo.h	324;"	kind:d
+OSID	osnfo/old/osnfo.h	337;"	kind:d
+OSID	osnfo/old/osnfo.h	349;"	kind:d
+OSID	osnfo/old/osnfo.h	361;"	kind:d
+OSID	osnfo/old/osnfo.h	376;"	kind:d
+OSID	osnfo/old/osnfo.h	389;"	kind:d
+OSID	osnfo/old/osnfo.h	401;"	kind:d
+OSID	osnfo/old/osnfo.h	413;"	kind:d
+OSID	osnfo/old/osnfo.h	426;"	kind:d
+OSID	osnfo/old/osnfo.h	441;"	kind:d
+OSID	osnfo/old/osnfo.h	453;"	kind:d
+OSID	osnfo/old/osnfo.h	465;"	kind:d
+OSID	osnfo/old/osnfo.h	480;"	kind:d
+OSID	osnfo/old/osnfo.h	492;"	kind:d
+OSID	osnfo/old/osnfo.h	504;"	kind:d
+OSID	osnfo/old/osnfo.h	516;"	kind:d
+OSID	osnfo/old/osnfo.h	528;"	kind:d
+OSID	osnfo/old/osnfo.h	542;"	kind:d
+OSID	osnfo/old/osnfo.h	557;"	kind:d
+OSID	osnfo/old/osnfo.h	569;"	kind:d
+OSID	osnfo/old/osnfo.h	581;"	kind:d
+OSID	osnfo/old/osnfo.h	594;"	kind:d
+OSID	osnfo/old/osnfo.h	59;"	kind:d
+OSID	osnfo/old/osnfo.h	610;"	kind:d
+OSID	osnfo/old/osnfo.h	623;"	kind:d
+OSID	osnfo/old/osnfo.h	636;"	kind:d
+OSID	osnfo/old/osnfo.h	649;"	kind:d
+OSID	osnfo/old/osnfo.h	661;"	kind:d
+OSID	osnfo/old/osnfo.h	673;"	kind:d
+OSID	osnfo/old/osnfo.h	681;"	kind:d
+OSID	osnfo/old/osnfo.h	689;"	kind:d
+OSID	osnfo/old/osnfo.h	699;"	kind:d
+OSID	osnfo/old/osnfo.h	713;"	kind:d
+OSID	osnfo/old/osnfo.h	76;"	kind:d
+OSID	osnfo/old/osnfo.h	89;"	kind:d
+OSIDS_H	osnfo/inc/osids.h	29;"	kind:d
+OSNFOLINUX_H	osnfo/inc/osnfolinux.h	29;"	kind:d
+OSNFO_H	osnfo/inc/osnfo.h	29;"	kind:d
+OSNFO_H	osnfo/old/osnfo.h	33;"	kind:d
+OSVER	osnfo/old/osnfo.h	63;"	kind:d
+OS_ARCH	osnfo/old/osnfo.h	675;"	kind:d
+OS_ARCH	osnfo/old/osnfo.h	683;"	kind:d
+OS_ARCH	osnfo/old/osnfo.h	691;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	735;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	742;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	746;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	750;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	754;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	765;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	773;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	778;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	786;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	791;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	799;"	kind:d
+OS_CODE_NAME	osnfo/old/osnfo.h	803;"	kind:d
+OnSearchFieldChange	lgr/html/search/search.js	/^  this.OnSearchFieldChange = function(evt)$/;"	kind:m	class:SearchBox
+OnSearchFieldChange	osnfo/html/search/search.js	/^  this.OnSearchFieldChange = function(evt)$/;"	kind:m	class:SearchBox
+OnSearchFieldFocus	lgr/html/search/search.js	/^  this.OnSearchFieldFocus = function(isActive)$/;"	kind:m	class:SearchBox
+OnSearchFieldFocus	osnfo/html/search/search.js	/^  this.OnSearchFieldFocus = function(isActive)$/;"	kind:m	class:SearchBox
+OnSearchSelectHide	lgr/html/search/search.js	/^  this.OnSearchSelectHide = function()$/;"	kind:m	class:SearchBox
+OnSearchSelectHide	osnfo/html/search/search.js	/^  this.OnSearchSelectHide = function()$/;"	kind:m	class:SearchBox
+OnSearchSelectKey	lgr/html/search/search.js	/^  this.OnSearchSelectKey = function(evt)$/;"	kind:m	class:SearchBox
+OnSearchSelectKey	osnfo/html/search/search.js	/^  this.OnSearchSelectKey = function(evt)$/;"	kind:m	class:SearchBox
+OnSearchSelectShow	lgr/html/search/search.js	/^  this.OnSearchSelectShow = function()$/;"	kind:m	class:SearchBox
+OnSearchSelectShow	osnfo/html/search/search.js	/^  this.OnSearchSelectShow = function()$/;"	kind:m	class:SearchBox
+OnSelectItem	lgr/html/search/search.js	/^  this.OnSelectItem = function(id)$/;"	kind:m	class:SearchBox
+OnSelectItem	osnfo/html/search/search.js	/^  this.OnSelectItem = function(id)$/;"	kind:m	class:SearchBox
+ProcessKeys	lgr/html/search/search.js	/^    this.ProcessKeys = function(e)$/;"	kind:m	class:SearchResults
+ProcessKeys	osnfo/html/search/search.js	/^    this.ProcessKeys = function(e)$/;"	kind:m	class:SearchResults
+SPRTD_OS	osnfo/inc/osnfolinux.h	36;"	kind:d
+STRCALC_H	strcalc/inc/strcalc.h	29;"	kind:d
+STRINGX_H	stringx/inc/stringx.h	29;"	kind:d
+SYNCOFFMSG	lgr/html/navtreedata.js	/^var SYNCOFFMSG = 'click to enable panel synchronisation';/;"	kind:v
+SYNCOFFMSG	osnfo/html/navtreedata.js	/^var SYNCOFFMSG = 'click to enable panel synchronisation';/;"	kind:v
+SYNCONMSG	lgr/html/navtreedata.js	/^var SYNCONMSG = 'click to disable panel synchronisation';$/;"	kind:v
+SYNCONMSG	osnfo/html/navtreedata.js	/^var SYNCONMSG = 'click to disable panel synchronisation';$/;"	kind:v
+Search	lgr/html/search/search.js	/^    this.Search = function(search)$/;"	kind:m	class:SearchResults
+Search	lgr/html/search/search.js	/^  this.Search = function()$/;"	kind:m	class:SearchBox
+Search	osnfo/html/search/search.js	/^    this.Search = function(search)$/;"	kind:m	class:SearchResults
+Search	osnfo/html/search/search.js	/^  this.Search = function()$/;"	kind:m	class:SearchBox
+SearchBox	lgr/html/search/search.js	/^function SearchBox(name, resultsPath, inFrame, label)$/;"	kind:c
+SearchBox	osnfo/html/search/search.js	/^function SearchBox(name, resultsPath, inFrame, label)$/;"	kind:c
+SearchResults	lgr/html/search/search.js	/^function SearchResults(name)$/;"	kind:c
+SearchResults	osnfo/html/search/search.js	/^function SearchResults(name)$/;"	kind:c
+SelectItemCount	lgr/html/search/search.js	/^  this.SelectItemCount = function(id)$/;"	kind:m	class:SearchBox
+SelectItemCount	osnfo/html/search/search.js	/^  this.SelectItemCount = function(id)$/;"	kind:m	class:SearchBox
+SelectItemSet	lgr/html/search/search.js	/^  this.SelectItemSet = function(id)$/;"	kind:m	class:SearchBox
+SelectItemSet	osnfo/html/search/search.js	/^  this.SelectItemSet = function(id)$/;"	kind:m	class:SearchBox
+TIMEX_H	lgr/inc/timex.h	29;"	kind:d
+TIMEX_H	timex/inc/timex.h	29;"	kind:d
+Toggle	lgr/html/search/search.js	/^    this.Toggle = function(id)$/;"	kind:m	class:SearchResults
+Toggle	osnfo/html/search/search.js	/^    this.Toggle = function(id)$/;"	kind:m	class:SearchResults
+WARNING	lgr/.bak/lgr.h	/^    WARNING = 0x3,  \/**< Warning messages.    *\/$/;"	kind:e	enum:verblvls
+WARNING	lgr/inc/lgr.h	/^    WARNING = 0x3,  \/**< Warning messages.    *\/$/;"	kind:e	enum:verblvls
+WARNING_STR	lgr/.bak/lgr.h	38;"	kind:d
+WARNING_STR	lgr/inc/lgr.h	46;"	kind:d
+WINDOWS	osnfo/inc/osids.h	32;"	kind:d
+_preventDefault	lgr/html/resize.js	/^  var _preventDefault = function(evt) { evt.preventDefault(); };$/;"	kind:f
+_preventDefault	osnfo/html/resize.js	/^  var _preventDefault = function(evt) { evt.preventDefault(); };$/;"	kind:f
+a.onclick	lgr/html/navtree.js	/^      a.href = srcPage!=targetPage ? url : "javascript:void(0)";$/;"	kind:f
+a.onclick	osnfo/html/navtree.js	/^      a.href = srcPage!=targetPage ? url : "javascript:void(0)";$/;"	kind:f
+animationInProgress	lgr/html/navtree.js	/^var animationInProgress = false;$/;"	kind:v
+animationInProgress	osnfo/html/navtree.js	/^var animationInProgress = false;$/;"	kind:v
+annotated_dup	osnfo/html/annotated_dup.js	/^var annotated_dup =$/;"	kind:v
+apilvl	osnfo/old/osnfo.h	/^    const char    *apilvl;  \/**< application programming instuction level *\/$/;"	kind:m	struct:osnfo_s	access:public
+arrowDown	lgr/html/navtree.js	/^var arrowDown = '&#9660;';$/;"	kind:v
+arrowDown	osnfo/html/navtree.js	/^var arrowDown = '&#9660;';$/;"	kind:v
+arrowRight	lgr/html/navtree.js	/^var arrowRight = '&#9658;';$/;"	kind:v
+arrowRight	osnfo/html/navtree.js	/^var arrowRight = '&#9658;';$/;"	kind:v
+cachedLink	lgr/html/navtree.js	/^function cachedLink()$/;"	kind:f
+cachedLink	osnfo/html/navtree.js	/^function cachedLink()$/;"	kind:f
+children	lgr/html/menudata.js	/^var menudata={children:[$/;"	kind:p	class:menudata
+children	osnfo/html/menudata.js	/^var menudata={children:[$/;"	kind:p	class:menudata
+collapseExpand	lgr/html/resize.js	/^  function collapseExpand()$/;"	kind:f	function:initResizable
+collapseExpand	osnfo/html/resize.js	/^  function collapseExpand()$/;"	kind:f	function:initResizable
+convertToId	lgr/html/search/search.js	/^function convertToId(search)$/;"	kind:f
+convertToId	osnfo/html/search/search.js	/^function convertToId(search)$/;"	kind:f
+createIndent	lgr/html/navtree.js	/^function createIndent(o,domNode,node,level)$/;"	kind:f
+createIndent	osnfo/html/navtree.js	/^function createIndent(o,domNode,node,level)$/;"	kind:f
+createResults	lgr/html/search/search.js	/^function createResults()$/;"	kind:f
+createResults	osnfo/html/search/search.js	/^function createResults()$/;"	kind:f
+cursorGrab	osnfo/html/svgpan.js	/^var cursorGrab = ' url("data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAlQTFRFAAAA\/\/\/\/\/\/\/\/c3ilYwAAAAN0Uk5T\/\/8A18oNQQAAAD1JREFUeNp0zlEKACAIA9Bt9z90bZBZkQj29qFBEuBOzQHSnWTTyckEfqUuZgFvslH4ch3qLCO\/Kr8cAgwATw4Ax6XRCcoAAAAASUVORK5CYII="), move';$/;"	kind:v
+d2/d7b/osnfo_8h.html	osnfo/html/navtreeindex0.js	/^{$/;"	kind:p	class:NAVTREEINDEX0
+deleteLink	lgr/html/navtree.js	/^function deleteLink()$/;"	kind:f
+deleteLink	osnfo/html/navtree.js	/^function deleteLink()$/;"	kind:f
+dir_68267d1309a1af8e8297ef4c3efbcdba	lgr/html/dir_68267d1309a1af8e8297ef4c3efbcdba.js	/^var dir_68267d1309a1af8e8297ef4c3efbcdba =$/;"	kind:v
+dir_68267d1309a1af8e8297ef4c3efbcdba.html	lgr/html/navtreeindex0.js	/^{$/;"	kind:p	class:NAVTREEINDEX0
+dir_bfccd401955b95cf8c75461437045ac0	lgr/html/dir_bfccd401955b95cf8c75461437045ac0.js	/^var dir_bfccd401955b95cf8c75461437045ac0 =$/;"	kind:v
+doZoom	osnfo/html/svgpan.js	/^function doZoom(g,point,zoomFactor)$/;"	kind:f
+dumpMatrix	osnfo/html/svgpan.js	/^function dumpMatrix(matrix) $/;"	kind:f
+expandNode	lgr/html/navtree.js	/^function expandNode(o, node, imm, showRoot)$/;"	kind:f
+expandNode	osnfo/html/navtree.js	/^function expandNode(o, node, imm, showRoot)$/;"	kind:f
+fexists	cstdior/inc/cstdior.h	/^fexists(char *fname);$/;"	kind:p	signature:(char *fname)
+fexists	cstdior/src/cstdior.c	/^fexists(char *fname)$/;"	kind:f	signature:(char *fname)
+files	lgr/html/files.js	/^var files =$/;"	kind:v
+files	osnfo/html/files.js	/^var files =$/;"	kind:v
+fromnstr	strcalc/inc/strcalc.h	/^fromnstr(uint64_t nstr);$/;"	kind:p	signature:(uint64_t nstr)
+fromnstr	strcalc/src/strcalc.c	/^fromnstr(uint64_t nstr);$/;"	kind:p	file:	signature:(uint64_t nstr)
+genaltfname	cstdior/inc/cstdior.h	/^genaltfname(char *fname);$/;"	kind:p	signature:(char *fname)
+genaltfname	cstdior/src/cstdior.c	/^genaltfname(char *fname)$/;"	kind:f	signature:(char *fname)
+getData	lgr/html/navtree.js	/^function getData(varName)$/;"	kind:f
+getData	osnfo/html/navtree.js	/^function getData(varName)$/;"	kind:f
+getEventPoint	osnfo/html/svgpan.js	/^function getEventPoint(evt) $/;"	kind:f
+getNode	lgr/html/navtree.js	/^function getNode(o, po)$/;"	kind:f
+getNode	osnfo/html/navtree.js	/^function getNode(o, po)$/;"	kind:f
+getScript	lgr/html/navtree.js	/^function getScript(scriptName,func,show)$/;"	kind:f
+getScript	osnfo/html/navtree.js	/^function getScript(scriptName,func,show)$/;"	kind:f
+getXPos	lgr/html/search/search.js	/^function getXPos(item)$/;"	kind:f
+getXPos	osnfo/html/search/search.js	/^function getXPos(item)$/;"	kind:f
+getYPos	lgr/html/search/search.js	/^function getYPos(item)$/;"	kind:f
+getYPos	osnfo/html/search/search.js	/^function getYPos(item)$/;"	kind:f
+getapilev	osnfo/old/osnfo.h	/^getapilev(void) { return API_LVL; }$/;"	kind:f	signature:(void)
+getdomainname	osnfo/inc/osnfolinux.h	/^getdomainname(void)$/;"	kind:f	signature:(void)
+getmachine	osnfo/inc/osnfolinux.h	/^getmachine(void)$/;"	kind:f	signature:(void)
+getnodename	osnfo/inc/osnfolinux.h	/^getnodename(void)$/;"	kind:f	signature:(void)
+getoscn	osnfo/old/osnfo.h	/^getoscn(void) { return OS_CODE_NAME; }$/;"	kind:f	signature:(void)
+getosid	osnfo/old/osnfo.h	/^getosid(void) { return OSID; }$/;"	kind:f	signature:(void)
+getosname	osnfo/inc/osnfo.h	/^getosname(void) { return getsysname(); }$/;"	kind:f	signature:(void)
+getosver	osnfo/old/osnfo.h	/^getosver(void) { return OSVER; }$/;"	kind:f	signature:(void)
+getosverx	osnfo/old/osnfo.h	/^getosverx(void)$/;"	kind:f	signature:(void)
+getrelease	osnfo/inc/osnfolinux.h	/^getrelease(void)$/;"	kind:f	signature:(void)
+getsysname	osnfo/inc/osnfolinux.h	/^getsysname(void)$/;"	kind:f	signature:(void)
+getutsname	osnfo/inc/osnfolinux.h	/^getutsname(void)$/;"	kind:f	signature:(void)
+getverblvl	lgr/.bak/lgr.c	/^getverblvl()$/;"	kind:f
+getverblvl	lgr/.bak/lgr.h	/^getverblvl(void);$/;"	kind:p	signature:(void)
+getverblvl	lgr/inc/lgr.h	/^getverblvl(void);$/;"	kind:p	signature:(void)
+getverblvl	lgr/src/lgr.c	/^getverblvl()$/;"	kind:f
+getverblvlname	lgr/.bak/lgr.c	/^getverblvlname(enum verblvls verblvl)$/;"	kind:f	signature:(enum verblvls verblvl)
+getverblvlname	lgr/.bak/lgr.h	/^getverblvlname(enum verblvls verblvl);$/;"	kind:p	signature:(enum verblvls verblvl)
+getverblvlname	lgr/inc/lgr.h	/^getverblvlname(enum verblvls verblvl);$/;"	kind:p	signature:(enum verblvls verblvl)
+getverblvlname	lgr/src/lgr.c	/^getverblvlname(enum verblvls verblvl)$/;"	kind:f	signature:(enum verblvls verblvl)
+getversion	osnfo/inc/osnfolinux.h	/^getversion(void)$/;"	kind:f	signature:(void)
+getyear	lgr/inc/timex.h	/^getyear(void);$/;"	kind:p	signature:(void)
+getyear	timex/inc/timex.h	/^getyear(void);$/;"	kind:p	signature:(void)
+getyear	timex/src/timex.c	/^getyear(void)$/;"	kind:f	signature:(void)
+glowEffect	lgr/html/navtree.js	/^function glowEffect(n,duration)$/;"	kind:f
+glowEffect	osnfo/html/navtree.js	/^function glowEffect(n,duration)$/;"	kind:f
+gotoAnchor	lgr/html/navtree.js	/^function gotoAnchor(anchor,aname,updateLocation)$/;"	kind:f
+gotoAnchor	osnfo/html/navtree.js	/^function gotoAnchor(anchor,aname,updateLocation)$/;"	kind:f
+gotoNode	lgr/html/navtree.js	/^function gotoNode(o,subIndex,root,hash,relpath)$/;"	kind:f
+gotoNode	osnfo/html/navtree.js	/^function gotoNode(o,subIndex,root,hash,relpath)$/;"	kind:f
+handleMouseDown	osnfo/html/svgpan.js	/^function handleMouseDown(evt) $/;"	kind:f
+handleMouseMove	osnfo/html/svgpan.js	/^function handleMouseMove(evt) $/;"	kind:f
+handleMouseUp	osnfo/html/svgpan.js	/^function handleMouseUp(evt) $/;"	kind:f
+handleMouseWheel	osnfo/html/svgpan.js	/^function handleMouseWheel(evt) $/;"	kind:f
+handlePan	osnfo/html/svgpan.js	/^function handlePan(x,y)$/;"	kind:f
+handlePrint	osnfo/html/svgpan.js	/^function handlePrint(evt)$/;"	kind:f
+handleReset	osnfo/html/svgpan.js	/^function handleReset()$/;"	kind:f
+handleZoom	osnfo/html/svgpan.js	/^function handleZoom(evt,direction)$/;"	kind:f
+hashUrl	lgr/html/navtree.js	/^function hashUrl()$/;"	kind:f
+hashUrl	osnfo/html/navtree.js	/^function hashUrl()$/;"	kind:f
+hashValue	lgr/html/navtree.js	/^function hashValue()$/;"	kind:f
+hashValue	osnfo/html/navtree.js	/^function hashValue()$/;"	kind:f
+highlightAnchor	lgr/html/navtree.js	/^function highlightAnchor()$/;"	kind:f
+highlightAnchor	osnfo/html/navtree.js	/^function highlightAnchor()$/;"	kind:f
+init	osnfo/html/svgpan.js	/^function init(evt) $/;"	kind:f
+initMenu	lgr/html/menu.js	/^function initMenu(relPath,searchEnabled,serverSide,searchPage,search) {$/;"	kind:f
+initMenu	osnfo/html/menu.js	/^function initMenu(relPath,searchEnabled,serverSide,searchPage,search) {$/;"	kind:f
+initNavTree	lgr/html/navtree.js	/^function initNavTree(toroot,relpath)$/;"	kind:f
+initNavTree	osnfo/html/navtree.js	/^function initNavTree(toroot,relpath)$/;"	kind:f
+initResizable	lgr/html/resize.js	/^function initResizable()$/;"	kind:f
+initResizable	osnfo/html/resize.js	/^function initResizable()$/;"	kind:f
+init_search	lgr/html/search/search.js	/^function init_search()$/;"	kind:f
+init_search	osnfo/html/search/search.js	/^function init_search()$/;"	kind:f
+isverblvl	lgr/.bak/lgr.c	/^isverblvl(unsigned char lvl)$/;"	kind:f	signature:(unsigned char lvl)
+isverblvl	lgr/.bak/lgr.h	/^isverblvl(unsigned char lvl);$/;"	kind:p	signature:(unsigned char lvl)
+isverblvl	lgr/inc/lgr.h	/^isverblvl(unsigned char lvl);$/;"	kind:p	signature:(unsigned char lvl)
+isverblvl	lgr/src/lgr.c	/^isverblvl(unsigned char lvl)$/;"	kind:f	signature:(unsigned char lvl)
+lgr_8c	lgr/html/lgr_8c.js	/^var lgr_8c =$/;"	kind:v
+lgr_8h	lgr/html/lgr_8h.js	/^var lgr_8h =$/;"	kind:v
+localStorageSupported	lgr/html/navtree.js	/^function localStorageSupported()$/;"	kind:f
+localStorageSupported	osnfo/html/navtree.js	/^function localStorageSupported()$/;"	kind:f
+loglf	lgr/.bak/lgr.c	/^loglf(enum verblvls verblvl, char *strfmt, ...)$/;"	kind:f	signature:(enum verblvls verblvl, char *strfmt, ...)
+loglf	lgr/.bak/lgr.h	/^loglf(enum verblvls verblvl, char *strfmt, ...);$/;"	kind:p	signature:(enum verblvls verblvl, char *strfmt, ...)
+loglf	lgr/inc/lgr.h	/^loglf(enum verblvls verblvl, char *strfmt, ...);$/;"	kind:p	signature:(enum verblvls verblvl, char *strfmt, ...)
+loglf	lgr/src/lgr.c	/^loglf(enum verblvls verblvl, char *strfmt, ...)$/;"	kind:f	signature:(enum verblvls verblvl, char *strfmt, ...)
+main	cstdior/src/cstdior.c	/^main(void)$/;"	kind:f	signature:(void)
+main	cstdior/src/testcase.c	/^main(void)$/;"	kind:f	signature:(void)
+main	lgr/.bak/lgr.c	/^main(void)$/;"	kind:f	signature:(void)
+main	osnfo/old/osnfo.c	/^main(void)$/;"	kind:f	signature:(void)
+main	osnfo/src/osnfo.c	/^main(void)$/;"	kind:f	signature:(void)
+main	strcalc/src/strcalc.c	/^main(int argc, char **argv)$/;"	kind:f	signature:(int argc, char **argv)
+main	stringx/src/stringx.c	/^main(void)$/;"	kind:f	signature:(void)
+makeTree	lgr/html/menu.js	/^  function makeTree(data,relPath) {$/;"	kind:f	function:initMenu
+makeTree	osnfo/html/menu.js	/^  function makeTree(data,relPath) {$/;"	kind:f	function:initMenu
+maxZoom	osnfo/html/svgpan.js	/^var maxZoom;$/;"	kind:v
+minZoom	osnfo/html/svgpan.js	/^var minZoom;$/;"	kind:v
+navTo	lgr/html/navtree.js	/^function navTo(o,root,hash,relpath)$/;"	kind:f
+navTo	osnfo/html/navtree.js	/^function navTo(o,root,hash,relpath)$/;"	kind:f
+newNode	lgr/html/navtree.js	/^function newNode(o, po, text, link, childrenData, lastNode)$/;"	kind:f
+newNode	osnfo/html/navtree.js	/^function newNode(o, po, text, link, childrenData, lastNode)$/;"	kind:f
+node.expandToggle.onclick	lgr/html/navtree.js	/^    node.expandToggle.href = "javascript:void(0)";$/;"	kind:f
+node.expandToggle.onclick	osnfo/html/navtree.js	/^    node.expandToggle.href = "javascript:void(0)";$/;"	kind:f
+node.getChildrenUL	lgr/html/navtree.js	/^  node.childrenUL = null;$/;"	kind:f
+node.getChildrenUL	osnfo/html/navtree.js	/^  node.childrenUL = null;$/;"	kind:f
+now	lgr/inc/timex.h	/^now(void);$/;"	kind:p	signature:(void)
+now	timex/inc/timex.h	/^now(void);$/;"	kind:p	signature:(void)
+now	timex/src/timex.c	/^now(void)$/;"	kind:f	signature:(void)
+nowtm	lgr/inc/timex.h	/^nowtm(void);$/;"	kind:p	signature:(void)
+nowtm	timex/inc/timex.h	/^nowtm(void);$/;"	kind:p	signature:(void)
+nowtm	timex/src/timex.c	/^nowtm(void)$/;"	kind:f	signature:(void)
+o.node.getChildrenUL	lgr/html/navtree.js	/^  o.node.childrenUL = document.createElement("ul");$/;"	kind:f
+o.node.getChildrenUL	osnfo/html/navtree.js	/^  o.node.childrenUL = document.createElement("ul");$/;"	kind:f
+osarch	osnfo/old/osnfo.h	/^    const uint8_t osarch;   \/**< operating system archetecture            *\/$/;"	kind:m	struct:osnfo_s	access:public
+oscn	osnfo/old/osnfo.h	/^    const char    *oscn;    \/**< operating system code name               *\/$/;"	kind:m	struct:osnfo_s	access:public
+osid	osnfo/old/osnfo.h	/^    const char    *osid;    \/**< operating system identification          *\/$/;"	kind:m	struct:osnfo_s	access:public
+osnfo	osnfo/old/osnfo.h	/^osnfo = {$/;"	kind:v
+osnfo_8c	osnfo/html/d9/de2/osnfo_8c.js	/^var osnfo_8c =$/;"	kind:v
+osnfo_8h	osnfo/html/d2/d7b/osnfo_8h.js	/^var osnfo_8h =$/;"	kind:v
+osnfo_s	osnfo/old/osnfo.h	/^osnfo_s {$/;"	kind:s
+osnfo_s::apilvl	osnfo/old/osnfo.h	/^    const char    *apilvl;  \/**< application programming instuction level *\/$/;"	kind:m	struct:osnfo_s	access:public
+osnfo_s::osarch	osnfo/old/osnfo.h	/^    const uint8_t osarch;   \/**< operating system archetecture            *\/$/;"	kind:m	struct:osnfo_s	access:public
+osnfo_s::oscn	osnfo/old/osnfo.h	/^    const char    *oscn;    \/**< operating system code name               *\/$/;"	kind:m	struct:osnfo_s	access:public
+osnfo_s::osid	osnfo/old/osnfo.h	/^    const char    *osid;    \/**< operating system identification          *\/$/;"	kind:m	struct:osnfo_s	access:public
+osnfo_s::osver	osnfo/old/osnfo.h	/^    const char    *osver;   \/**< operating system version                 *\/$/;"	kind:m	struct:osnfo_s	access:public
+osnfo_t	osnfo/old/osnfo.h	/^} osnfo_t;$/;"	kind:t	typeref:struct:osnfo_s
+osver	osnfo/old/osnfo.h	/^    const char    *osver;   \/**< operating system version                 *\/$/;"	kind:m	struct:osnfo_s	access:public
+parsecmdstr	cstdior/inc/cstdior.h	/^parsecmdstr(const char *command);$/;"	kind:p	signature:(const char *command)
+parsecmdstr	cstdior/src/cstdior.c	/^parsecmdstr(const char command)$/;"	kind:f	signature:(const char command)
+pathName	lgr/html/navtree.js	/^function pathName()$/;"	kind:f
+pathName	osnfo/html/navtree.js	/^function pathName()$/;"	kind:f
+readCookie	lgr/html/resize.js	/^  function readCookie(cookie)$/;"	kind:f	function:initResizable
+readCookie	osnfo/html/resize.js	/^  function readCookie(cookie)$/;"	kind:f	function:initResizable
+removeToInsertLater	lgr/html/navtree.js	/^function removeToInsertLater(element) {$/;"	kind:f
+removeToInsertLater	osnfo/html/navtree.js	/^function removeToInsertLater(element) {$/;"	kind:f
+resizeHeight	lgr/html/resize.js	/^  function resizeHeight()$/;"	kind:f	function:initResizable
+resizeHeight	osnfo/html/resize.js	/^  function resizeHeight()$/;"	kind:f	function:initResizable
+resizeWidth	lgr/html/resize.js	/^  function resizeWidth()$/;"	kind:f	function:initResizable
+resizeWidth	osnfo/html/resize.js	/^  function resizeWidth()$/;"	kind:f	function:initResizable
+restoreWidth	lgr/html/resize.js	/^  function restoreWidth(navWidth)$/;"	kind:f	function:initResizable
+restoreWidth	osnfo/html/resize.js	/^  function restoreWidth(navWidth)$/;"	kind:f	function:initResizable
+root	osnfo/html/svgpan.js	/^var root = document.documentElement;$/;"	kind:v
+script.onreadystatechange	lgr/html/navtree.js	/^  if ($.browser.msie && $.browser.version<=8) {$/;"	kind:f
+script.onreadystatechange	osnfo/html/navtree.js	/^  if ($.browser.msie && $.browser.version<=8) {$/;"	kind:f
+searchData	lgr/html/search/all_0.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_1.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_2.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_3.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_4.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_5.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_6.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_7.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_8.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_9.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_a.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/all_b.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/defines_0.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/defines_1.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/defines_2.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/defines_3.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/defines_4.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/defines_5.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/defines_6.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/enums_0.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/enumvalues_0.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/enumvalues_1.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/enumvalues_2.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/enumvalues_3.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/enumvalues_4.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/enumvalues_5.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/files_0.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/files_1.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/functions_0.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/functions_1.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/functions_2.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/functions_3.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/functions_4.js	/^var searchData=$/;"	kind:v
+searchData	lgr/html/search/pages_0.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/all_0.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/all_1.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/all_2.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/all_3.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/all_4.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/all_5.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/classes_0.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/defines_0.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/defines_1.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/files_0.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/files_1.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/files_2.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/functions_0.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/functions_1.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/pages_0.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/pages_1.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/typedefs_0.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/variables_0.js	/^var searchData=$/;"	kind:v
+searchData	osnfo/html/search/variables_1.js	/^var searchData=$/;"	kind:v
+selectAndHighlight	lgr/html/navtree.js	/^function selectAndHighlight(hash,n)$/;"	kind:f
+selectAndHighlight	osnfo/html/navtree.js	/^function selectAndHighlight(hash,n)$/;"	kind:f
+serializeXmlNode	osnfo/html/svgpan.js	/^function serializeXmlNode(xmlNode) $/;"	kind:f
+setAttributes	osnfo/html/svgpan.js	/^function setAttributes(element, attributes)$/;"	kind:f
+setCTM	osnfo/html/svgpan.js	/^function setCTM(element, matrix) $/;"	kind:f
+setClassAttr	lgr/html/search/search.js	/^function setClassAttr(elem,attr)$/;"	kind:f
+setClassAttr	osnfo/html/search/search.js	/^function setClassAttr(elem,attr)$/;"	kind:f
+setKeyActions	lgr/html/search/search.js	/^function setKeyActions(elem,action)$/;"	kind:f
+setKeyActions	osnfo/html/search/search.js	/^function setKeyActions(elem,action)$/;"	kind:f
+setverblvl	lgr/.bak/lgr.c	/^setverblvl(enum verblvls verblvl)$/;"	kind:f	signature:(enum verblvls verblvl)
+setverblvl	lgr/.bak/lgr.h	/^setverblvl(enum verblvls verblvl);$/;"	kind:p	signature:(enum verblvls verblvl)
+setverblvl	lgr/inc/lgr.h	/^setverblvl(enum verblvls verblvl);$/;"	kind:p	signature:(enum verblvls verblvl)
+setverblvl	lgr/src/lgr.c	/^setverblvl(enum verblvls verblvl)$/;"	kind:f	signature:(enum verblvls verblvl)
+setverblvlname	lgr/src/lgr.c	/^setverblvlname(enum verblvls verblvl)$/;"	kind:f	signature:(enum verblvls verblvl)
+showNode	lgr/html/navtree.js	/^function showNode(o, node, index, hash)$/;"	kind:f
+showNode	osnfo/html/navtree.js	/^function showNode(o, node, index, hash)$/;"	kind:f
+showRoot	lgr/html/navtree.js	/^function showRoot()$/;"	kind:f
+showRoot	osnfo/html/navtree.js	/^function showRoot()$/;"	kind:f
+showSyncOff	lgr/html/navtree.js	/^function showSyncOff(n,relpath)$/;"	kind:f
+showSyncOff	osnfo/html/navtree.js	/^function showSyncOff(n,relpath)$/;"	kind:f
+showSyncOn	lgr/html/navtree.js	/^function showSyncOn(n,relpath)$/;"	kind:f
+showSyncOn	osnfo/html/navtree.js	/^function showSyncOn(n,relpath)$/;"	kind:f
+state	osnfo/html/svgpan.js	/^var state = 'none';$/;"	kind:v
+stateOrigin	osnfo/html/svgpan.js	/^var stateOrigin;$/;"	kind:v
+stateTf	osnfo/html/svgpan.js	/^var stateTf = root.createSVGMatrix();$/;"	kind:v
+storeLink	lgr/html/navtree.js	/^function storeLink(link)$/;"	kind:f
+storeLink	osnfo/html/navtree.js	/^function storeLink(link)$/;"	kind:f
+strcmpigor	stringx/inc/stringx.h	/^strcmpigor(char *stra, char *strb);$/;"	kind:p	signature:(char *stra, char *strb)
+strcmpigor	stringx/src/stringx.c	/^strcmpigor(char *stra, char *strb)$/;"	kind:f	signature:(char *stra, char *strb)
+stripPath	lgr/html/navtree.js	/^function stripPath(uri)$/;"	kind:f
+stripPath	osnfo/html/navtree.js	/^function stripPath(uri)$/;"	kind:f
+stripPath2	lgr/html/navtree.js	/^function stripPath2(uri)$/;"	kind:f
+stripPath2	osnfo/html/navtree.js	/^function stripPath2(uri)$/;"	kind:f
+strtolower	stringx/inc/stringx.h	/^strtolower(char *str);$/;"	kind:p	signature:(char *str)
+strtolower	stringx/src/stringx.c	/^strtolower(char *str)$/;"	kind:f	signature:(char *str)
+structosnfo__s	osnfo/html/db/d45/structosnfo__s.js	/^var structosnfo__s =$/;"	kind:v
+svgDoc	osnfo/html/svgpan.js	/^var svgDoc;$/;"	kind:v
+tmp_8h	osnfo/html/dc/dc6/tmp_8h.js	/^var tmp_8h =$/;"	kind:v
+toggleFolder	lgr/html/dynsections.js	/^function toggleFolder(id)$/;"	kind:f
+toggleFolder	osnfo/html/dynsections.js	/^function toggleFolder(id)$/;"	kind:f
+toggleInherit	lgr/html/dynsections.js	/^function toggleInherit(id)$/;"	kind:f
+toggleInherit	osnfo/html/dynsections.js	/^function toggleInherit(id)$/;"	kind:f
+toggleLevel	lgr/html/dynsections.js	/^function toggleLevel(level)$/;"	kind:f
+toggleLevel	osnfo/html/dynsections.js	/^function toggleLevel(level)$/;"	kind:f
+toggleSyncButton	lgr/html/navtree.js	/^function toggleSyncButton(relpath)$/;"	kind:f
+toggleSyncButton	osnfo/html/navtree.js	/^function toggleSyncButton(relpath)$/;"	kind:f
+toggleVisibility	lgr/html/dynsections.js	/^function toggleVisibility(linkObj)$/;"	kind:f
+toggleVisibility	osnfo/html/dynsections.js	/^function toggleVisibility(linkObj)$/;"	kind:f
+tonstr	strcalc/inc/strcalc.h	/^tonstr(const char *str);$/;"	kind:p	signature:(const char *str)
+tonstr	strcalc/src/strcalc.c	/^tonstr(const char *str)$/;"	kind:f	signature:(const char *str)
+updateStripes	lgr/html/dynsections.js	/^function updateStripes()$/;"	kind:f
+updateStripes	osnfo/html/dynsections.js	/^function updateStripes()$/;"	kind:f
+verblvls	lgr/.bak/lgr.h	/^verblvls {$/;"	kind:g
+verblvls	lgr/inc/lgr.h	/^verblvls {$/;"	kind:g
+vldtvlvlname	lgr/src/lgr.c	/^vldtvlvlname(void)$/;"	kind:f	file:	signature:(void)
+vlvl	lgr/.bak/lgr.c	/^static enum verblvls  vlvl    = WARNING;$/;"	kind:v	typeref:enum:verblvls	file:
+vlvl	lgr/src/lgr.c	/^static enum verblvls  vlvl    = WARNING;$/;"	kind:v	typeref:enum:verblvls	file:
+vlvln	lgr/.bak/lgr.c	/^static char           *vlvln  = WARNING_STR;$/;"	kind:v	file:
+vlvln	lgr/src/lgr.c	/^static char           *vlvln  = WARNING_STR;$/;"	kind:v	file:
+window.onresize	osnfo/html/svgpan.js	/^}$/;"	kind:f
+windowHeight	osnfo/html/svgpan.js	/^var windowHeight;$/;"	kind:v
+windowWidth	osnfo/html/svgpan.js	/^var windowWidth;$/;"	kind:v
+writeCookie	lgr/html/resize.js	/^  function writeCookie(cookie, val, expiration)$/;"	kind:f	function:initResizable
+writeCookie	osnfo/html/resize.js	/^  function writeCookie(cookie, val, expiration)$/;"	kind:f	function:initResizable
+zoomInFactor	osnfo/html/svgpan.js	/^var zoomInFactor;$/;"	kind:v
+zoomOutFactor	osnfo/html/svgpan.js	/^var zoomOutFactor;$/;"	kind:v
+zoomSteps	osnfo/html/svgpan.js	/^var zoomSteps = 10;$/;"	kind:v
