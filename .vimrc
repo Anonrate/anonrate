@@ -8,14 +8,15 @@ cal vundle#begin('~/.vim/bundle')
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'delimitMate.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'c-standard-functions-highlight'
-Plugin 'TagHighlight'
+"Plugin 'c-standard-functions-highlight'
+Plugin 'abudden/taghighlight-automirror.git'
+"Plugin 'TagHighlight'
 " Have to have 'se et'..  I don't want that..
 "Plugin 'nathanaelkane/vim-indent-guides'
 "Plugin 'mh21/errormarker.vim'
 Plugin 'qpkorr/vim-bufkill'
 Plugin 'vim-airline/vim-airline'
-Plugin 'lilydjwg/colorizer'
+"Plugin 'lilydjwg/colorizer'
 cal vundle#end()
 " syntax on
 syn on
@@ -25,6 +26,10 @@ filet plugin indent on
 
 " colorscheme anoncol
 colo anoncol
+"if ! exists('g:TagHighlightSettings')
+""				let g:TagHighlightSettings = {}
+""			endif
+""			let g:TagHighlightSettings['TagHL-Recurse'] = 0
 
 au bufNewFile *.c,*.h so ~/.vim/templates/c.template
 au bufNewFile *.c,*.h exe "1," . 25 . "g/\|FILENAME\|.*/s~~" . expand("%:t")
@@ -34,18 +39,19 @@ au bufNewFile *.c,*.h exe "1," . 25 . "g/\|AUTHOR\|/s//Anonrate"
 au bufNewFile *.c,*.h exe "1," . 25 . "g/\|YEAR\|/s//" . strftime("%Y")
 " Sets 'backsapce' to '2' which allows backspacing over autoIndents, line
 " 	breaks and the start of insert.
-se bs=2			" Same as 'se bs=indent,eol,start'.
-"se cuc			" set cursorColumn
-"se cul			" set cursorLine
-se enc=utf8		" set encoding=utf8
-se fenc=utf8	" set fileEncoding=utf8
+se bs=2					" Same as 'se bs=indent,eol,start'.
+se cuc					" set cursorColumn
+se cul					" set cursorLine
+se enc=utf8			" set encoding=utf8
+se et						" set expandTabs
+se fenc=utf8		" set fileEncoding=utf8
 se history=200	" set history=200
-se ls=2			" set lastStatus=2 (Show 'lastStatus' always.)
-se nu			" set number (Line numbers)
-se ru			" set ruler (Cursor position)
+se ls=2					" set lastStatus=2 (Show 'lastStatus' always.)
+se nu						" set number (Line numbers)
+se ru						" set ruler (Cursor position)
 
 " NOTE:	Turning off 'showcmd' will increase terminal performance.
-se sc	" set showcmd (Show (partial) command in last line of screen.)
+se nosc	" set showcmd (Show (partial) command in last line of screen.)
 
 se si	" set smartIndent
 se sm	" set showMatch (Show matching brackets.)
@@ -54,11 +60,11 @@ se sm	" set showMatch (Show matching brackets.)
 " NOTE:	Setting 'so' to a large value, will result in the cursor always being
 " 		in the middle of the window (except at start, end or when
 " 		lines wrap).
-se so=140	" set scrolloff=140
+se so=140		" set scrolloff=140
 
-se sw=4		" set shiftWidth=4
-se tgc		" set termGuiColors
-se ts=4		" set tabStop=4
+se sw=4			" set shiftWidth=4
+se tgc			" set termGuiColors
+se ts=2			" set tabStop=4
 
 " Time out on ':mappings' and key codes.
 se ttimeout	" set ttimeout
@@ -66,14 +72,14 @@ se ttimeout	" set ttimeout
 " Time waited for key codes or ':mappings' to be completed.
 se ttm=100	" set ttimeoutlen=100
 
-se tw=79	" set textWidth=79
-se wmnu		" se wildmenu
+se tw=79		" set textWidth=79
+se wmnu			" se wildmenu
 
 " columnColor
 " Colors column '80' to represent the 'textWidth' setting.  Also colors column
 " 	column '120'.
-let &cc="80," . join(range(120, 478), ",")
-
+"let &cc="80," . join(range(120, 478), ",")
+se cc=80
 let g:load_doxygen_syntax		= 1
 "let g:doxygen_enhanced_color	= 1
 
