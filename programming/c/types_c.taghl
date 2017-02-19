@@ -1,0 +1,31 @@
+syn keyword CTagsStructure osnfo_s
+syn keyword CTagsMember osver apilvl osarch osid oscn
+syn keyword CTagsGlobalVariable osnfo
+syn keyword CTagsEnumeratorName verblvls
+syn keyword CTagsEnumerationValue ERROR INFO INTERN_DEBUG INTERN_INFO WARNING DEBUG INTERN_WARNING FATAL NVALID_VERB_LVL
+syn keyword CTagsFunction getsysname fromnstr main getrelease tonstr strcmpigor getmachine getosid getoscn setverblvl parsecmdstr getverblvl loglf fexists genaltfname getapilev now getdomainname strtolower isverblvl getutsname getosver getverblvlname getyear getosname getosverx getversion nowtm setverblvlname getnodename
+syn keyword CTagsType osnfo_t
+syn keyword CTagsDefinedName INTERN_WARNING_STR OS_ARCH DBGF_UNAME DBGR_H DBGF_UNMX DBGF_FE OSIDS_H OSNFO_H INTERN_INFO_STR OSVER OS_CODE_NAME DBGCSTDIOR_H API_LVL DEBUG_OUT FATAL_STR SPRTD_OS WARNING_STR DBGOSNFOLINUX_H OSNFOLINUX_H STRINGX_H CSTDIOR_H DBGSTRINGX_H LINUX STRCALC_H ERROR_STR INTERN_DEBUG_STR DBGF_STRZ OSID NVALID_VERB_LVL_STR TIMEX_H WINDOWS DBGF_FNE DEBUG_OUTF LGR_H INFO_STR DEBUG_STR
+
+" Matches for file strcalc/src/strcalc.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "strcalc/src/strcalc.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsFunction fromnstr
+	syn keyword CTagsDefinedName DEBUG
+	
+endif
+" Matches for file stringx/src/stringx.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "stringx/src/stringx.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsDefinedName DEBUG
+	
+endif
+" Matches for file lgr/.bak/lgr.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "lgr/.bak/lgr.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsGlobalVariable vlvln vlvl
+	
+endif
+" Matches for file lgr/src/lgr.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "lgr/src/lgr.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsGlobalVariable vlvln vlvl
+	syn keyword CTagsFunction vldtvlvlname
+	
+endif
