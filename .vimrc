@@ -16,6 +16,7 @@ Plugin 'abudden/taghighlight-automirror.git'
 "Plugin 'mh21/errormarker.vim'
 Plugin 'qpkorr/vim-bufkill'
 Plugin 'vim-airline/vim-airline'
+Plugin 'airblade/vim-gitgutter'
 "Plugin 'lilydjwg/colorizer'
 cal vundle#end()
 " syntax on
@@ -46,6 +47,8 @@ se enc=utf8			" set encoding=utf8
 se et						" set expandTabs
 se fenc=utf8		" set fileEncoding=utf8
 se history=200	" set history=200
+se lcs=tab:>-,trail:~
+se list
 se ls=2					" set lastStatus=2 (Show 'lastStatus' always.)
 se nu						" set number (Line numbers)
 se ru						" set ruler (Cursor position)
@@ -80,7 +83,7 @@ se wmnu			" se wildmenu
 " 	column '120'.
 "let &cc="80," . join(range(120, 478), ",")
 se cc=80
-let g:load_doxygen_syntax		= 1
+"let g:load_doxygen_syntax		= 1
 "let g:doxygen_enhanced_color	= 1
 
 " Disable loading all extensions.
@@ -91,6 +94,7 @@ let g:airline_extensions	= [
 							\ 'tabline',
 							\ 'wordcount',
 							\ 'branch',
+              \ 'hunks',
 							\ ]
 "{{{1
 " Show buffer numbers.
@@ -131,3 +135,5 @@ fu! SyntaxItem()
 endf
 
 "let g:airline_section_y = '%{SyntaxItem()}'
+
+let g:gitgutter_max_signs = 9999999
