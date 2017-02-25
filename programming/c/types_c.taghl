@@ -1,16 +1,17 @@
 syn keyword CTagsStructure osnfo_s
-syn keyword CTagsMember osver apilvl osarch osid oscn
+syn keyword CTagsMember apilvl osver oscn osarch osid
 syn keyword CTagsGlobalVariable osnfo
-syn keyword CTagsEnumeratorName verblvls
-syn keyword CTagsEnumerationValue ERROR INFO INTERN_DEBUG INTERN_INFO WARNING DEBUG INTERN_WARNING FATAL NVALID_VERB_LVL
-syn keyword CTagsFunction getsysname fromnstr main getrelease tonstr strcmpigor getmachine getosid getoscn setverblvl parsecmdstr getverblvl loglf fexists genaltfname getapilev now getdomainname strtolower isverblvl getutsname getosver getverblvlname getyear getosname getosverx getversion nowtm setverblvlname getnodename
+syn keyword CTagsEnumeratorName tmmonthsdayfmt tmmonthsfmt verblvls tmwdaysfmt tmhourfmt
+syn keyword CTagsEnumerationValue ERROR INTERN_INFO FULL_DAY DEBUG SHORT_MONTH TWELVE_HOUR_Z TWENTY_FOUR_HOUR_Z NVALID_VERB_LVL WEEK_DAY_DEC INTERN_WARNING SHORT_DAY INTERN_DEBUG DAY_MONTH_Z FATAL MONTH_DEC WARNING INFO FULL_MONTH
+syn keyword CTagsFunction tonstr getosid getverblvl getversion getnodename fromnstr main nowtm setverblvl isverblvl getdomainname getrelease genaltfname logltlf strtolower getsysname getfileprio getutsname getosverx logllf getverblvlname getapilev strcmpigor geterrwarn setfileprio getyear now loglf getmachine parsecmdstr logltf seterrwarn getosname fexists getoscn getosver
 syn keyword CTagsType osnfo_t
-syn keyword CTagsDefinedName INTERN_WARNING_STR OS_ARCH DBGF_UNAME DBGR_H DBGF_UNMX DBGF_FE OSIDS_H OSNFO_H INTERN_INFO_STR OSVER OS_CODE_NAME DBGCSTDIOR_H API_LVL DEBUG_OUT FATAL_STR SPRTD_OS WARNING_STR DBGOSNFOLINUX_H OSNFOLINUX_H STRINGX_H CSTDIOR_H DBGSTRINGX_H LINUX STRCALC_H ERROR_STR INTERN_DEBUG_STR DBGF_STRZ OSID NVALID_VERB_LVL_STR TIMEX_H WINDOWS DBGF_FNE DEBUG_OUTF LGR_H INFO_STR DEBUG_STR
+syn keyword CTagsDefinedName DAY_MONTH MINUTES OS_CODE_NAME DBGF_UNMX DBGF_UNAME DEBUG_OUT DBGR_H DEBUG_OUTF OSNFOLINUX_H INTERN_INFO_STR OS_ARCH WINDOWS DBGSTRINGX_H INFO_STR DBGCSTDIOR_H CSTDIOR_H API_LVL NVALID_VERB_LVL_STR DEBUG_STR ERROR_STR DBGF_FE DBGF_STRZ LGR_H WARNING_STR SECONDS TIME_FMT OSNFO_H DAY_YEAR OSVER LINUX FATAL_STR OSID INTERN_DEBUG_STR DBGOSNFOLINUX_H INTERN_WARNING_STR SPRTD_OS STRINGX_H STRCALC_H TIMEX_H OSIDS_H DBGF_FNE LGRTIME_H
 
-" Matches for file strcalc/src/strcalc.c:
-if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "strcalc/src/strcalc.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
-	syn keyword CTagsFunction fromnstr
-	syn keyword CTagsDefinedName DEBUG
+" Matches for file lgr/src/lgr.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "lgr/src/lgr.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsGlobalVariable vlvln fprio vlvl errwarn
+	syn keyword CTagsFunction fatal setvlvln lgrf setvlvl
+	syn keyword CTagsDefinedName REALLOC_NEEDED SET_VERB_LVL VERB_LVL_NOCH RMSG_U VERB_LVL_ASET STR_LEN_MSG VERB_LVL_N_NOCH VALIDATE_WIN RMSG_D VERB_LVL_N_CHCK VERB_LVL_N_CH_CHCK XVALID_VERB_LVL CALC_STR SET_FPRIO VERB_SET_FAIL VERB_LVLN_NOCH RMSG_S SET_ERRWARN XVALID_VERB_LVL_N VALIDATING_MSG NVALID_VERB_LVL_N MALLOC_FAIL RMSG_HHU VERB_LVL_CH_CHCK REALLOC_WIN SET_VERB_LVL_N LGR_DEV VALIDATE_FAIL VALID_VERB_LVL_N VERB_LVL_N_ASET REALLOC_MSG
 	
 endif
 " Matches for file stringx/src/stringx.c:
@@ -18,14 +19,25 @@ if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["N
 	syn keyword CTagsDefinedName DEBUG
 	
 endif
-" Matches for file lgr/.bak/lgr.c:
-if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "lgr/.bak/lgr.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+" Matches for file .bak/lgr/src/lgr.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == ".bak/lgr/src/lgr.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsGlobalVariable vlvln vlvl
+	syn keyword CTagsFunction vldtvlvlname setverblvlname
+	
+endif
+" Matches for file .bak/lgr/.bak/lgr.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == ".bak/lgr/.bak/lgr.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
 	syn keyword CTagsGlobalVariable vlvln vlvl
 	
 endif
-" Matches for file lgr/src/lgr.c:
-if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "lgr/src/lgr.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+" Matches for file strcalc/src/strcalc.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "strcalc/src/strcalc.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsFunction fromnstr
+	syn keyword CTagsDefinedName DEBUG
+	
+endif
+" Matches for file lgr/.bak/lgr.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "lgr/.bak/lgr.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
 	syn keyword CTagsGlobalVariable vlvln vlvl
-	syn keyword CTagsFunction vldtvlvlname
 	
 endif
