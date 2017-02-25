@@ -15,6 +15,27 @@ hi colorColumn            guifg=NONE    guibg=#202020 cterm=none
 hi lineNR                 guifg=#ff0000 guibg=#202020 cterm=none
 hi vertSplit              guifg=#000000 guibg=#202020 cterm=none
 hi folded                 guifg=#505050 guibg=#202020 cterm=none
+
+hi signColoumn            guibg=#000000 guifg=NONE    cterm=none
+hi gitGutterAdd           guibg=NONE    guifg=#00ff00 cterm=none
+hi gitGutterChange        guibg=NONE    guifg=#ffff00 cterm=none
+hi gitGutterDelete        guibg=NONE    guifg=#ff0000 cterm=none
+hi gitGutterChangeDelete  guibg=NONE    guifg=#ffc000 cterm=none
+
+hi gitGutterChangeDeleteLine  guibg=#c08000 guifg=NONE  cterm=none
+
+hi diffAdd                guibg=#008000 guifg=NONE    cterm=none
+hi diffChange             guibg=#808000 guifg=NONE    cterm=none
+hi diffDelete             guibg=#800000 guifg=NONE    cterm=none
+
+hi matchParen             guibg=NONE    guifg=#ffff00 cterm=underline
+
+hi visual                 guibg=#ff8000 guifg=NONE    cterm=none
+
+hi spellBad               guibg=NONE    guifg=#ff0000 cterm=underline,bold
+
+hi specialKey             guibg=NONE    guifg=#ff6400 cterm=none
+
 syn match symParens           /[(){}]/
 hi link symParens                     cDefine
 
